@@ -1,0 +1,22 @@
+{
+  "author": "Youssef <yussdev@gmail.com>",
+  "dependencies": {
+    "alfy": "^0.8.0"
+  },
+  "description": "Evaluate JavaScript experssion in Alfred",
+  "keywords": [
+    "alfred",
+    "workflow",
+    "repl",
+    "node repl",
+    "eval"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "alfred-node-repl",
+  "scripts": {
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "version": "1.0.3"
+}
