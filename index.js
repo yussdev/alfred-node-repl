@@ -1,5 +1,6 @@
 const { output, input: q } = require('alfy')
-result = eval(q)
+const evaluation = eval(q)
+const result = JSON.stringify(evaluation)
 output([
   {
     title: result,
