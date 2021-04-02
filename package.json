@@ -18,7 +18,7 @@
     "postinstall": "alfy-init",
     "preuninstall": "alfy-cleanup"
   },
-  "version": "1.0.5",
+  "version": "1.1.5",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yussdev/alfred-node-repl.git"
